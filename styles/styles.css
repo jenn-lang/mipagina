@@ -1,0 +1,15 @@
+body {
+    background-color: purple;
+}
+.boton{
+    padding: 20px;
+    background-color: rebeccapurple;
+    border: red;
+}
+
+.separar{
+    margin: 30px;
+}
+.contenedor{
+    margin: 20px;
+}
