@@ -1,15 +1,58 @@
 body {
-    background-color: purple;
-}
-.boton{
-    padding: 20px;
-    background-color: rebeccapurple;
-    border: red;
+    width: auto;
+    height: 550px;
+    background:linear-gradient( 175deg, rgb(0, 132, 255), white ); 
 }
 
-.separar{
-    margin: 30px;
+h1{
+    font-family: Helvetica;
+    font-size: 50px;
 }
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin: 50px 0px 30px;
+}
+.boton{
+    color: white;
+    padding: 10px 30px;
+    background-color:rgb(11, 243, 11);
+    border: red;
+    font-size: 20px;
+}
+
+.botonDos{
+    color: white;
+    padding: 10px 60px;
+    margin-top: 15px;
+    background-color: rgb(105, 10, 10);
+    border: red;
+    font-size: 20px;
+}
+
+.dos{
+   
+    /*display: inline-block;*/
+    margin-top: -30px;
+    border: tomato;
+    padding: 12px;
+}
+.separar{
+    margin: 15px;
+    /*border: red solid 5px;*/
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+
+    
+}
+
+
 .contenedor{
-    margin: 20px;
+    margin: 50px;
 }
