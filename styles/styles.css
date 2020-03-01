@@ -1,15 +1,40 @@
 body {
     background-color: purple;
 }
-.boton{
+/*.boton{
     padding: 20px;
     background-color: rebeccapurple;
     border: red;
+}*/
+
+.contenedorPadre{
+    border: red solid 3px;
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+    text-align: center;
+
+    display: block;
+    justify-content: center;
+
 }
 
-.separar{
-    margin: 30px;
+.sub-contenedor{
+    border: black solid 2px;
 }
-.contenedor{
-    margin: 20px;
+.items1{
+    border: blue solid 3px;
+}
+
+.items2{
+    border: blueviolet solid 3px;
+}
+
+.items3{
+    border: red solid 3px
+}
+
+img{
+    width: 60px;
+    object-fit: fill;
 }
